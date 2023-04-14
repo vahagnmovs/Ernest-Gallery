@@ -1,0 +1,33 @@
+.feedbackContainerWrapper {
+    padding: 140px 230px;
+}
+
+.feedbackHeaderContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.feedbackHeaderContainer::before,
+.feedbackHeaderContainer::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #5B4856;
+}
+
+.feedbackHeaderContainer:not(:empty)::before {
+    margin-right: 3em;
+}
+
+.feedbackHeaderContainer:not(:empty)::after {
+    margin-left: 3em;
+}
+
+.feedbackHeader {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+}

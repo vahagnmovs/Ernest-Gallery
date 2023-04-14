@@ -1,0 +1,69 @@
+.coverImageContainer {
+    position: relative;
+}
+
+.coverImage {
+    display: block;
+    height: 750px;
+    /*height: calc(100vh - 166px);*/
+    width: 100%;
+    object-fit: fill;
+}
+
+.turnBadgeImage {
+    height: 800px;
+    width: 900px;
+}
+
+.turnBadgeTextWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 900px;
+}
+
+.turnBadgeHeader {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.turnBadgeText {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+.turnBadgeTextContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.turnBadgeButton {
+    padding: 17px 79px;
+    background: #E4D0D0;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.turnBadgeButton:hover {
+    background: #5B4856;
+    color: #FFFFFF;
+}

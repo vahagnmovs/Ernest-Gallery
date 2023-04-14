@@ -1,0 +1,26 @@
+.galleryBadgeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.galleryBadgeImages {
+    background: #CCCCCC;
+    padding: 20px 50px;
+}
+
+.galleryBadgeBottom {
+    background: #5B4856;
+    padding: 15px 230px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: 1px solid #5B4856;
+}
+
+.galleryBadgeBottom:hover {
+    background: #E4D0D0;
+    color: #5B4856;
+}

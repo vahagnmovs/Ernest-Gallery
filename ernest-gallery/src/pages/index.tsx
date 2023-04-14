@@ -1,9 +1,24 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from "../components/header";
+import Navbar from "../components/navbar";
+import CoverImage from "@/components/coverImage";
+import Gallery from "@/components/gallery";
+import WhyYouLoveMe from "@/components/whyYouLoveMe";
+import SlidesMolbert from "@/components/slideMolbert";
+import Sizes from "@/components/sizes";
+import Feedback from "@/components/feedback";
 
 export default function Home() {
-  return (
-    <div>Ernest Gallery</div>
-  )
+    return (
+        <>
+            <Header/>
+            <Navbar/>
+            <CoverImage/>
+            <Gallery />
+            <WhyYouLoveMe />
+            <SlidesMolbert />
+            <Sizes />
+            <Feedback />
+        </>
+
+    )
 }

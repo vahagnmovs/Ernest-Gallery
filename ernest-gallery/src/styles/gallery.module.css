@@ -1,0 +1,40 @@
+.galleryContainer {
+    padding: 140px 230px;
+}
+
+.galleryHeaderContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.galleryHeaderContainer::before,
+.galleryHeaderContainer::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #5B4856;
+}
+
+.galleryHeaderContainer:not(:empty)::before {
+    margin-right: 3em;
+}
+
+.galleryHeaderContainer:not(:empty)::after {
+    margin-left: 3em;
+}
+
+.galleryHeader {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    /*margin-bottom: 80px;*/
+}
+
+.galleryBadgesContainer {
+    display: flex;
+    gap: 120px;
+}
+

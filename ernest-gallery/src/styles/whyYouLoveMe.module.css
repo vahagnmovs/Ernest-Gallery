@@ -1,0 +1,58 @@
+.whyLoveMeContainer {
+    background: #848482;
+    padding: 140px 230px;
+}
+
+.whyLoveMeHeaderContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.whyLoveMeHeaderContainer::before,
+.whyLoveMeHeaderContainer::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #5B4856;
+}
+
+.whyLoveMeHeaderContainer:not(:empty)::before {
+    margin-right: 3em;
+}
+
+.whyLoveMeHeaderContainer:not(:empty)::after {
+    margin-left: 3em;
+}
+
+.whyLoveMeHeader {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.whyWrapperContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whyWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.whyWrapper > span {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.01rem;
+    border-bottom: 1px solid #5B4856;
+    padding: 20px 0;
+}
+
+.whyWrapper > span:last-child {
+    border-bottom: none;
+}
