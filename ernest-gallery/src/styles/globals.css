@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.body {
+body {
     background: #E3E3E3;
 }
 
 .sliderWidthPeople {
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 @font-face {

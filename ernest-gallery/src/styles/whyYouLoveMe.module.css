@@ -53,6 +53,10 @@
     padding: 20px 0;
 }
 
+.whyWrapper > span:hover {
+    color: #F6E5F2;
+}
+
 .whyWrapper > span:last-child {
     border-bottom: none;
 }

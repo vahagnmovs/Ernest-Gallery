@@ -18,12 +18,42 @@ const SlidesMolbert = () => {
                 }
             }
         },
+        [
+            (slider) => {
+                let timeout: ReturnType<typeof setTimeout>
+                let mouseOver = false
+                function clearNextTimeout() {
+                    clearTimeout(timeout)
+                }
+                function nextTimeout() {
+                    clearTimeout(timeout)
+                    if (mouseOver) return
+                    timeout = setTimeout(() => {
+                        slider.next()
+                    }, 2000)
+                }
+                slider.on("created", () => {
+                    slider.container.addEventListener("mouseover", () => {
+                        mouseOver = true
+                        clearNextTimeout()
+                    })
+                    slider.container.addEventListener("mouseout", () => {
+                        mouseOver = false
+                        nextTimeout()
+                    })
+                    nextTimeout()
+                })
+                slider.on("dragStarted", clearNextTimeout)
+                slider.on("animationEnded", nextTimeout)
+                slider.on("updated", nextTimeout)
+            },
+        ]
     )
 
     return (
         <div className={styles.slidesMolbertContainer}>
             <div className={styles.slidesMolbertHeaderContainer}>
-                <span className={styles.slidesMolbertHeader}>Title For Section</span>
+                <span className={styles.slidesMolbertHeader}>My Paintings</span>
             </div>
 
             <div ref={sliderRef} className="keen-slider">

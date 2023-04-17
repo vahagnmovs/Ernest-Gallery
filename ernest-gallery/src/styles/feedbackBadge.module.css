@@ -1,0 +1,46 @@
+.feedbackBadgeContainer {
+    padding: 40px 30px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.feedbackBadgeColor {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    max-width: 70%;
+    background: #5B4856;
+    padding: 10px 20px;
+}
+
+.feedbackBadgeName {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: #F6E5F2;
+}
+
+.feedbackBadgeText {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    color: #5B4856;
+}
+
+.feedbackBadgeImage {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35%;
+    left: 10%;
+}

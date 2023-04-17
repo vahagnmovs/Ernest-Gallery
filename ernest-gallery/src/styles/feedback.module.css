@@ -31,3 +31,9 @@
     font-size: 48px;
     line-height: 57px;
 }
+
+.feedbackBadgesContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

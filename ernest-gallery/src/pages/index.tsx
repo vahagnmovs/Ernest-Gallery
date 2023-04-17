@@ -6,6 +6,7 @@ import WhyYouLoveMe from "@/components/whyYouLoveMe";
 import SlidesMolbert from "@/components/slideMolbert";
 import Sizes from "@/components/sizes";
 import Feedback from "@/components/feedback";
+import Footer from "@/components/footer";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <SlidesMolbert />
             <Sizes />
             <Feedback />
+            <Footer />
         </>
 
     )

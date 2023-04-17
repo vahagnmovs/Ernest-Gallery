@@ -1,0 +1,16 @@
+.footerContainer {
+    background: #000000;
+}
+
+.footerTopContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcon {
+    width: 50px;
+}
+
+.footerHeader {
+    color: #F6E5F2;
+}

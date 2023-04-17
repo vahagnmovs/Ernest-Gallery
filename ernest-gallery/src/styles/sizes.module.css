@@ -5,8 +5,16 @@
 
 .sizesContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 30px;
     align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.sizesCostQuantity {
+    max-width: 150px;
+    max-height: 250px;
+    margin-bottom: 15px;
 }
 
 .sizesHeaderContainer {
@@ -74,43 +82,13 @@
     margin-bottom: 5px;
 }
 
-.sizesSize1 {
+.sizesSize {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 3px solid #5B4856;
-    padding: 16px 20px;
+    padding: 15px 10px;
+    background: #FFFFFF;
 }
 
-.sizesSize2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #5B4856;
-    padding: 40px 30px;
-}
-
-.sizesSize3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #5B4856;
-    padding: 30px 20px;
-}
-
-.sizesSize4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #5B4856;
-    padding: 60px 30px;
-}
-
-.sizesSize5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #5B4856;
-    padding: 72px 48px;
-}
 

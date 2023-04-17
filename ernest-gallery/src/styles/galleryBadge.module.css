@@ -4,20 +4,22 @@
 }
 
 .galleryBadgeImages {
+    display: flex;
+    justify-content: center;
     background: #CCCCCC;
-    padding: 20px 50px;
+    padding: 50px 50px;
 }
 
 .galleryBadgeBottom {
     background: #5B4856;
-    padding: 15px 230px;
+    padding: 15px 25px;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 26px;
     color: #FFFFFF;
-    border: 1px solid #5B4856;
+    border: none;
 }
 
 .galleryBadgeBottom:hover {

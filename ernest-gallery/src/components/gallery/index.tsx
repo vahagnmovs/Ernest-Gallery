@@ -7,8 +7,14 @@ const Gallery = () => {
                 <span className={styles.galleryHeader}>Gallery of Hand-Painted Portrait</span>
             </div>
             <div className={styles.galleryBadgesContainer}>
-                <GalleryBadge />
-                <GalleryBadge />
+                <GalleryBadge
+                    paintType={'Dry Brushes'}
+                    image={'/images/galleryImage1.png'}
+                />
+                <GalleryBadge
+                    paintType={'Oil Paintings'}
+                    image={'/images/galleryImage2.png'}
+                />
             </div>
         </div>
     );
