@@ -6,15 +6,29 @@
 .sizesContainer {
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    gap: 10px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
+
 
 .sizesCostQuantity {
     max-width: 150px;
     max-height: 250px;
     margin-bottom: 15px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sizesCostQuantity2 {
+    max-width: 150px;
+    max-height: 250px;
+    margin-bottom: 15px;
+    width: 100%;
+    object-fit: contain;
+    border: 10px solid gray;
+    padding: 10px;
 }
 
 .sizesHeaderContainer {

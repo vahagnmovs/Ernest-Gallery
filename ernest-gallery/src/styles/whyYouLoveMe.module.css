@@ -41,13 +41,15 @@
 .whyWrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .whyWrapper > span {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0.01rem;
     border-bottom: 1px solid #5B4856;
     padding: 20px 0;

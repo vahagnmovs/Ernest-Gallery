@@ -23,8 +23,8 @@ const Sizes = () => {
 
                 <div className={styles.sizesSize}>
                     <div className={styles.sizesCostWrapper}>
-                        <span className={styles.sizesCostText}>full body person</span>
-                        <img className={styles.sizesCostQuantity} src="/images/sizes/singleMan.jpg" alt=""/>
+                        <span className={styles.sizesCostText}>1 person portrait</span>
+                        <img className={styles.sizesCostQuantity2} src="/images/sizes/size6.svg" alt=""/>
                         <span className={styles.sizesCostHeader}>16 x 20 inch</span>
                         <span className={styles.sizesCostText}>Dry Brash B/W 350$</span>
                         <span className={styles.sizesCostText}>Dry Brash Color 500$</span>
@@ -32,8 +32,8 @@ const Sizes = () => {
                 </div>
                 <div className={styles.sizesSize}>
                     <div className={styles.sizesCostWrapper}>
-                        <span className={styles.sizesCostText}>full body person</span>
-                        <img className={styles.sizesCostQuantity} src="/images/sizes/singleMan.jpg" alt=""/>
+                        <span className={styles.sizesCostText}>1 person portrait</span>
+                        <img className={styles.sizesCostQuantity2} src="/images/sizes/size6.svg" alt=""/>
                         <span className={styles.sizesCostHeader}>24 x 36 inch</span>
                         <span className={styles.sizesCostText}>Dry Brash B/W 500$</span>
                         <span className={styles.sizesCostText}>Dry Brash Color 900$</span>
@@ -41,8 +41,8 @@ const Sizes = () => {
                 </div>
                 <div className={styles.sizesSize}>
                     <div className={styles.sizesCostWrapper}>
-                        <span className={styles.sizesCostText}>two full body persons</span>
-                        <img className={styles.sizesCostQuantity} src="/images/sizes/coupleWhole.jpg" alt=""/>
+                        <span className={styles.sizesCostText}>2 persons portrait</span>
+                        <img className={styles.sizesCostQuantity} src="/images/sizes/couplePart.jpg" alt=""/>
                         <span className={styles.sizesCostHeader}>24 x 36 inch</span>
                         <span className={styles.sizesCostText}>Dry Brash B/W 600$</span>
                         <span className={styles.sizesCostText}>Dry Brash Color 1000$</span>

@@ -4,14 +4,14 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .feedbackBadgeColor {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    max-width: 70%;
+    max-width: 85%;
     background: #5B4856;
     padding: 10px 20px;
 }
@@ -37,10 +37,10 @@
 }
 
 .feedbackBadgeImage {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     position: absolute;
-    top: -35%;
-    left: 10%;
+    top: -20%;
+    left: 3%;
 }
