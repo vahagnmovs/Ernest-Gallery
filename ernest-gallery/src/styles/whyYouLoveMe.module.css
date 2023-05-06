@@ -1,6 +1,12 @@
 .whyLoveMeContainer {
     background: #848482;
-    padding: 140px 230px;
+    padding: 80px 0 140px 0;
+}
+
+.whyLoveMeWrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .whyLoveMeHeaderContainer {
@@ -42,17 +48,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .whyWrapper > span {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.01rem;
     border-bottom: 1px solid #5B4856;
     padding: 20px 0;
+}
+
+.whyWrapper > span > span {
+    color: #5B4856;
 }
 
 .whyWrapper > span:hover {

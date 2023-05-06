@@ -5,12 +5,15 @@ const Navbar = () => {
         <div className={styles.navbarContainer}>
             <div className={styles.navbarLinksContainer}>
                 <Link href={'/'} className={styles.navbarLinks}>
+                    HOME
+                </Link>
+                <Link href={'/'} className={styles.navbarLinks}>
                     GALLERY
                 </Link>
-                <Link href={'/'} className={styles.navbarLinks}>
+                <Link href={'/prices'} className={styles.navbarLinks}>
                     PRICES
                 </Link>
-                <Link href={'/'} className={styles.navbarLinks}>
+                <Link href={'/questions'} className={styles.navbarLinks}>
                     QUESTIONS
                 </Link>
                 <Link href={'/'} className={styles.navbarLinks}>

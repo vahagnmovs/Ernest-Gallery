@@ -52,19 +52,21 @@ const SlidesMolbert = () => {
 
     return (
         <div className={styles.slidesMolbertContainer}>
-            <div className={styles.slidesMolbertHeaderContainer}>
-                <span className={styles.slidesMolbertHeader}>My Paintings</span>
-            </div>
+            <div className={styles.slidesMolbertWrapper}>
+                <div className={styles.slidesMolbertHeaderContainer}>
+                    <span className={styles.slidesMolbertHeader}>My Paintings</span>
+                </div>
 
-            <div ref={sliderRef} className="keen-slider">
-                {
-                    slidesMolberts.map(slidesMolbert => (
-                            <div key={slidesMolbert.id} className={'keen-slider__slide sliderWidthPeople'}>
-                                <SlideSingle {...slidesMolbert}/>
-                            </div>
+                <div ref={sliderRef} className="keen-slider">
+                    {
+                        slidesMolberts.map(slidesMolbert => (
+                                <div key={slidesMolbert.id} className={'keen-slider__slide sliderWidthPeople'}>
+                                    <SlideSingle {...slidesMolbert}/>
+                                </div>
+                            )
                         )
-                    )
-                }
+                    }
+                </div>
             </div>
         </div>
     );

@@ -1,11 +1,17 @@
 .sizesContainerWrapper {
-    padding: 140px 230px;
+    padding: 80px 0 140px 0;
     background: #848482;
+}
+
+.sizesWrapWrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .sizesContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
     align-items: flex-start;
     flex-wrap: wrap;

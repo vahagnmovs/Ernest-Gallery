@@ -5,30 +5,32 @@ import {whyLoveMes3} from '@/data/whyLoveMe3.js'
 const WhyYouLoveMe = () => {
     return (
         <div className={styles.whyLoveMeContainer}>
-            <div className={styles.whyLoveMeHeaderContainer}>
-                <span className={styles.whyLoveMeHeader}>Why You'll Love Me</span>
-            </div>
-            <div className={styles.whyWrapperContainer}>
-                <div className={styles.whyWrapper}>
-                    {
-                        whyLoveMes1.map(whyLoveMe => (
-                            <span key={whyLoveMe.id}>{whyLoveMe.text}</span>
-                        ))
-                    }
+            <div className={styles.whyLoveMeWrapper}>
+                <div className={styles.whyLoveMeHeaderContainer}>
+                    <span className={styles.whyLoveMeHeader}>Why You'll Love Me</span>
                 </div>
-                <div className={styles.whyWrapper}>
-                    {
-                        whyLoveMes2.map(whyLoveMe => (
-                            <span key={whyLoveMe.id}>{whyLoveMe.text}</span>
-                        ))
-                    }
-                </div>
-                <div className={styles.whyWrapper}>
-                    {
-                        whyLoveMes3.map(whyLoveMe => (
-                            <span key={whyLoveMe.id}>{whyLoveMe.text}</span>
-                        ))
-                    }
+                <div className={styles.whyWrapperContainer}>
+                    <div className={styles.whyWrapper}>
+                        {
+                            whyLoveMes1.map(whyLoveMe => (
+                                <span key={whyLoveMe.id}><span>✔</span> {whyLoveMe.text}</span>
+                            ))
+                        }
+                    </div>
+                    <div className={styles.whyWrapper}>
+                        {
+                            whyLoveMes2.map(whyLoveMe => (
+                                <span key={whyLoveMe.id}><span>✔</span> {whyLoveMe.text}</span>
+                            ))
+                        }
+                    </div>
+                    <div className={styles.whyWrapper}>
+                        {
+                            whyLoveMes3.map(whyLoveMe => (
+                                <span key={whyLoveMe.id}><span>✔</span> {whyLoveMe.text}</span>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>

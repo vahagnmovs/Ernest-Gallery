@@ -1,5 +1,11 @@
 .feedbackContainerWrapper {
-    padding: 140px 230px;
+    padding: 80px 0 140px 0;
+}
+
+.feedbackContainerContainer {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .feedbackHeaderContainer {
