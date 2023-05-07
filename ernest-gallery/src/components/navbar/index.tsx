@@ -17,7 +17,7 @@ const Navbar = () => {
                     QUESTIONS
                 </Link>
                 <Link href={'/'} className={styles.navbarLinks}>
-                    GET IN TOUCH
+                    CONTACT ME
                 </Link>
             </div>
         </div>

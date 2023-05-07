@@ -42,7 +42,7 @@ const Sizes = () => {
                     </div>
                     <div className={styles.sizesSize}>
                         <div className={styles.sizesCostWrapper}>
-                            <span className={styles.sizesCostText}>2 persons</span>
+                            <span className={styles.sizesCostText}>2 personsc</span>
                             <img className={styles.sizesCostQuantity} src="/images/sizes/couplePart.jpg" alt=""/>
                             <span className={styles.sizesCostHeader}>24 x 36 inch</span>
                             <span className={styles.sizesCostText}>Dry Brash B/W 600$</span>
