@@ -13,11 +13,11 @@ const Navbar = () => {
                 <Link href={'/prices'} className={styles.navbarLinks}>
                     PRICES
                 </Link>
-                <Link href={'/questions'} className={styles.navbarLinks}>
-                    QUESTIONS
-                </Link>
-                <Link href={'/'} className={styles.navbarLinks}>
+                <Link href={'/contact'} className={styles.navbarLinks}>
                     CONTACT ME
+                </Link>
+                <Link href={'/about'} className={styles.navbarLinks}>
+                    ABOUT ME
                 </Link>
             </div>
         </div>

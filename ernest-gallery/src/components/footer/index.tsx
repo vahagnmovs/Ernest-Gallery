@@ -48,11 +48,11 @@ const Footer = () => {
                     <img onClick={() => router.push('https://www.facebook.com/profile.php?id=100009713139157')} src="/icons/facebook.svg" alt=""/>
                 </div>
                 <div className={styles.footerLinks}>
-                    <Link className={styles.footeLink} href={'/'}>About</Link>
-                    <Link className={styles.footeLink} href={'/'}>Contact</Link>
-                    <Link className={styles.footeLink} href={'/'}>Prices</Link>
-                    <Link className={styles.footeLink} href={'/'}>Questions</Link>
-                    <Link className={styles.footeLink} href={'/'}>Get in touch</Link>
+                    <Link className={styles.footeLink} href={'/'}>Home</Link>
+                    <Link className={styles.footeLink} href={'/'}>Gallery</Link>
+                    <Link className={styles.footeLink} href={'/prices'}>Prices</Link>
+                    <Link className={styles.footeLink} href={'/contact'}>Contact me</Link>
+                    <Link className={styles.footeLink} href={'/about'}>About me</Link>
                 </div>
             </div>
         </div>

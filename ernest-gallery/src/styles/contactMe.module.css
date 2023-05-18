@@ -1,0 +1,87 @@
+.contactMeContainer {
+    padding: 80px 0 140px 0;
+}
+
+.contactMeWrapper {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inputsHeader {
+    align-self: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    color: #333333;
+}
+
+.inputRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.inputLabel {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01rem;
+    color: #333333;
+    cursor: pointer;
+}
+
+.contactInput {
+    font-family: "Oswald", sans-serif;
+    outline: none;
+    padding: 12px;
+}
+
+.contactTextArea {
+    font-family: "Oswald", sans-serif;
+    outline: none;
+    padding: 12px;
+    resize: none;
+}
+
+.contactBtn {
+    font-family: "Oswald", sans-serif;
+    outline: none;
+    padding: 17px 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    background: #E4D0D0;
+}
+
+.contactBtn:hover {
+    background: #5B4856;
+    color: #FFFFFF;
+}
+
+.contactBtn:Active {
+    background: #E4D0D0;
+    color: #000000;
+}
+
+.contactBtn:disabled {
+    background: #CCCCCC;
+    color: #FFFFFF;
+}
+
+.error {
+    color: red;
+    font-family: "Oswald", sans-serif;
+}
