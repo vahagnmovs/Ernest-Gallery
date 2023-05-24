@@ -7,7 +7,7 @@ const Navbar = () => {
                 <Link href={'/'} className={styles.navbarLinks}>
                     HOME
                 </Link>
-                <Link href={'/'} className={styles.navbarLinks}>
+                <Link href={'/gallery'} className={styles.navbarLinks}>
                     GALLERY
                 </Link>
                 <Link href={'/prices'} className={styles.navbarLinks}>

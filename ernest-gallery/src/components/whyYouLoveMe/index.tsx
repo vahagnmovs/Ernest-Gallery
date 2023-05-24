@@ -2,12 +2,13 @@ import styles from '@/styles/whyYouLoveMe.module.css'
 import {whyLoveMes1} from '@/data/whyLoveMe1.js'
 import {whyLoveMes2} from '@/data/whyLoveMe2.js'
 import {whyLoveMes3} from '@/data/whyLoveMe3.js'
+
 const WhyYouLoveMe = () => {
     return (
         <div className={styles.whyLoveMeContainer}>
             <div className={styles.whyLoveMeWrapper}>
                 <div className={styles.whyLoveMeHeaderContainer}>
-                    <span className={styles.whyLoveMeHeader}>Why You'll Love Me</span>
+                    <span className={styles.whyLoveMeHeader}>Why You&apos;ll Love Me</span>
                 </div>
                 <div className={styles.whyWrapperContainer}>
                     <div className={styles.whyWrapper}>
