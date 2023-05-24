@@ -60,6 +60,8 @@
     font-family: "Oswald", sans-serif;
     font-style: normal;
     font-weight: 400;
+    border: none;
+    cursor: pointer;
 }
 
 .turnBadgeButton:hover {
