@@ -17,7 +17,7 @@ export const feedbacks = [
     {
         id: 3,
         name: "Michael Thompson",
-        text: "I ordered a oil painting from portrait-painting.com for the first time. At first, I was a little bit sceptical. But, I am glad that I did. What made me nervous was that I wanted a painting of an air plane that I used to fly in the Military years ago. I did not see any examples of air planes on their website, so I made the leap and gave it a try. I was very impressed with the quality that came out. It is exactly the way I wanted it. I thought the prices were extremely reasonable. You can have your most treasured photos transformed into an oil painting.",
+        text: "I am so pleased with how quick and easy the process was between asking for a sketch and receiving the finished product. I love the sketch and as it is an Xmas present for my mum I hope she loves it too. I showed my daughter and she was amazed by the detail not just of herself but the background as well. I would definitely recommend Ernest to anyone.",
         location: "Washington, USA",
         photo: "/images/feedback/feedback3.jpg"
     }

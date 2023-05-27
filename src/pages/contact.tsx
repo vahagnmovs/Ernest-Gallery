@@ -8,7 +8,7 @@ const ContactPage = () => {
     return (
         <>
             <Header/>
-            <Navbar/>
+            <Navbar navId={4}/>
             <ContactMe/>
             <Footer/>
         </>

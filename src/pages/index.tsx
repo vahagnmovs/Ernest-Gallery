@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <Header/>
-            <Navbar/>
+            <Navbar navId={0}/>
             <CoverImage/>
             <Gallery />
             <WhyYouLoveMe />

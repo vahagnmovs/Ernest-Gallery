@@ -9,7 +9,7 @@ const PricesPage = () => {
     return (
         <>
             <Header />
-            <Navbar />
+            <Navbar navId={3}/>
             <Prices />
             <WhyYouLoveMe />
             <Footer />

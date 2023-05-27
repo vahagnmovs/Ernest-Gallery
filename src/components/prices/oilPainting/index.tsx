@@ -8,13 +8,19 @@ const OilPainting = () => {
     return (
         <>
             <div className={styles.pricesSelect}>
-                <div onClick={() => setSelectedPersons(1)} className={styles.prices2Person}>
+                <div onClick={() => setSelectedPersons(1)}
+                     className={`${styles.prices2Person} ${selectedPersons === 1 ? styles.selectedPerson : ""}`}
+                >
                     <img src="/images/couplePart-removebg-preview.png" alt=""/>
                 </div>
-                <div onClick={() => setSelectedPersons(2)} className={styles.prices3Person}>
+                <div onClick={() => setSelectedPersons(2)}
+                     className={`${styles.prices3Person} ${selectedPersons === 2 ? styles.selectedPerson : ""}`}
+                >
                     <img src="/images/singleMan-removebg-preview.png" alt=""/>
                 </div>
-                <div onClick={() => setSelectedPersons(3)} className={styles.prices4Person}>
+                <div onClick={() => setSelectedPersons(3)}
+                     className={`${styles.prices4Person} ${selectedPersons === 3 ? styles.selectedPerson : ""}`}
+                >
                     <img src="/images/coupleWhole-removebg-preview.png" alt=""/>
                 </div>
             </div>

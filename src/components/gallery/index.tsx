@@ -5,7 +5,7 @@ const Gallery = () => {
         <div className={styles.galleryContainer}>
             <div className={styles.galleryWrapper}>
                 <div className={styles.galleryHeaderContainer}>
-                    <span className={styles.galleryHeader}>Gallery of Hand-Painted Portrait</span>
+                    <span className={styles.galleryHeader}>Handmade Paintings From Photos</span>
                 </div>
                 <div className={styles.galleryBadgesContainer}>
                     <GalleryBadge

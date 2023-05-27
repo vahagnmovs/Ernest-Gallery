@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <>
             <Header/>
-            <Navbar/>
+            <Navbar navId={5}/>
             <AboutMe/>
             <Footer/>
         </>

@@ -12,7 +12,8 @@
     gap: 80px;
 }
 
-.navbarLinks {
+.navbarLinks,
+.navbarLinksActive {
     padding: 0 10px;
     display: flex;
     align-items: center;
@@ -23,6 +24,12 @@
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbarLinksActive {
+    background: #F6E5F2;
+    color: #5B4856;
 }
 
 .navbarLinks:hover {

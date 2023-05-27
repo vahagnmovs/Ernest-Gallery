@@ -8,7 +8,7 @@ const GalleryPage = () => {
     return (
         <div>
             <Header />
-            <Navbar />
+            <Navbar navId={2}/>
             <ImageGallery />
             <Footer />
         </div>

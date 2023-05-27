@@ -11,6 +11,7 @@ body {
 .sliderWidthPeople {
     min-width: 300px;
     max-width: 300px;
+    height: 350px;
 }
 
 @font-face {

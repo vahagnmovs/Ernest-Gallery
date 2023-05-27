@@ -7,7 +7,7 @@ const QuestionsPage = () => {
     return (
         <>
             <Header />
-            <Navbar />
+            <Navbar navId={0}/>
             <WhyYouLoveMe />
             <Footer />
         </>
