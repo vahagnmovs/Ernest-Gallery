@@ -4,7 +4,6 @@ import FeedbackBadge from "@/components/feedback/feedbackBadge";
 import {feedbacks} from "@/data/feedback";
 import feedbackBadge from "@/components/feedback/feedbackBadge";
 
-
 const Feedback = () => {
     return (
         <div className={styles.feedbackContainerWrapper}>

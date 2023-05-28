@@ -38,3 +38,39 @@
     line-height: 57px;
     /*margin-bottom: 80px;*/
 }
+
+@media screen and (max-width: 768px) {
+    .slidesMolbertHeader {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #333333;
+        text-align: start;
+    }
+
+    .slidesMolbertHeaderContainer {
+        margin-bottom: 40px;
+        padding: 0 16px;
+    }
+
+    .slidesMolbertContainer {
+        padding: 80px 0;
+    }
+
+    .slidesMolbertHeaderContainer::before,
+    .slidesMolbertHeaderContainer::after {
+        content: unset;
+        flex: unset;
+        border-bottom: unset;
+    }
+
+    .slidesMolbertHeaderContainer:not(:empty)::before {
+        margin-right: unset;
+    }
+
+    .slidesMolbertHeaderContainer:not(:empty)::after {
+        margin-left: unset;
+    }
+}

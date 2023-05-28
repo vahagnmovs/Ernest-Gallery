@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: flex;
+        align-items: center;justify-content: space-between;
+        padding: 16px;
+        background: #5B4856;
+    }
+
+    .headerText {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        color: #F6E5F2;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 16px 32px 16px;
+    }
+
+    .footerLink {
+        text-decoration: none;
+        font-family: "Oswald", sans-serif;
+        color: #E4D0D0;
+        font-size: 20px;
+        letter-spacing: 0.03rem;
+    }
+}

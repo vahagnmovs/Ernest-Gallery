@@ -25,6 +25,10 @@ const Navbar = ({navId}: INavbar) => {
                     ABOUT ME
                 </Link>
             </div>
+
+            <div className={styles.navbarLinksContainerMobile}>
+
+            </div>
         </div>
     );
 };

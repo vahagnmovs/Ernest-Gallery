@@ -31,3 +31,33 @@
     background: #E4D0D0;
     color: #5B4856;
 }
+
+@media screen and (max-width: 768px) {
+    .galleryBadgeImages {
+        display: flex;
+        justify-content: center;
+        background: #CCCCCC;
+        max-width: 300px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    .galleryBadgeImages > img {
+        max-width: 300px;
+        max-height: 550px;
+    }
+
+    .galleryBadgeBottom {
+        background: #5B4856;
+        padding: 15px 25px;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 26px;
+        color: #FFFFFF;
+        border: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+}

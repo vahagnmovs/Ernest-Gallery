@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className={styles.footerTopContainer}>
                     <img className={styles.footerIcon} src="/icons/footer.svg" alt=""/>
                     <span className={styles.footerHeader}>NEWSLETTER</span>
-                    <span className={styles.footerText}>Subscribe to our newsletter for updates and special offers!</span>
+                    <span className={styles.footerText}>Subscribe to my newsletter for updates and special offers!</span>
                     <div className={styles.footerNews}>
                         <input value={email} onChange={(e) => handleValidateEmail(e)} className={styles.footerInput} type="text"/>
                         <button

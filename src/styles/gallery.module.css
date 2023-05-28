@@ -36,12 +36,55 @@
     font-weight: 600;
     font-size: 48px;
     line-height: 57px;
-    /*margin-bottom: 80px;*/
 }
 
 .galleryBadgesContainer {
     display: flex;
     gap: 120px;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .galleryBadgesContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .galleryHeaderContainer {
+        margin-bottom: 40px;
+    }
+
+    .galleryHeader {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #333333;
+        text-align: start;
+    }
+
+    .galleryContainer {
+        padding: 0 16px 80px 16px;
+    }
+
+    .galleryWrapper {
+        max-width: unset;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .galleryHeaderContainer::before,
+    .galleryHeaderContainer::after {
+        content: unset;
+        flex: unset;
+        border-bottom: unset;
+    }
+
+    .galleryHeaderContainer:not(:empty)::before {
+        margin-right: unset;
+    }
+
+    .galleryHeaderContainer:not(:empty)::after {
+        margin-left: unset;
+    }
 }
 

@@ -43,3 +43,46 @@
     justify-content: space-between;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .feedbackContainerWrapper {
+        padding: 80px 16px;
+    }
+
+    .feedbackHeader {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #000000;
+        text-align: start;
+    }
+
+    .feedbackHeaderContainer {
+        margin-bottom: 40px;
+    }
+
+    .feedbackHeaderContainer::before,
+    .feedbackHeaderContainer::after {
+        content: unset;
+        flex: unset;
+        border-bottom: unset;
+    }
+
+    .feedbackHeaderContainer:not(:empty)::before {
+        margin-right: unset;
+    }
+
+    .feedbackHeaderContainer:not(:empty)::after {
+        margin-left: unset;
+    }
+
+    .feedbackBadgesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}

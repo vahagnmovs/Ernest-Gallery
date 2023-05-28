@@ -71,3 +71,64 @@
 .whyWrapper > span:last-child {
     border-bottom: none;
 }
+
+@media screen and (max-width: 768px) {
+    .whyLoveMeHeaderContainer {
+        margin-bottom: 40px;
+    }
+
+    .whyLoveMeHeader {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #000000;
+        text-align: start;
+    }
+
+    .whyLoveMeContainer {
+        padding: 80px 16px 80px 16px;
+    }
+
+    .whyWrapper {
+        max-width: unset;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .whyLoveMeHeaderContainer::before,
+    .whyLoveMeHeaderContainer::after {
+        content: unset;
+        flex: unset;
+        border-bottom: unset;
+    }
+
+    .whyLoveMeHeaderContainer:not(:empty)::before {
+        margin-right: unset;
+    }
+
+    .whyLoveMeHeaderContainer:not(:empty)::after {
+        margin-left: unset;
+    }
+
+    .whyWrapperContainer {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .whyWrapper > span {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 0.01rem;
+        border-bottom: none;
+        padding: 10px 0;
+        color: #000000;
+    }
+
+    .whyWrapper > span:hover {
+        color: unset;
+    }
+}

@@ -17,8 +17,6 @@
     flex-wrap: wrap;
 }
 
-
-
 .sizesCostQuantity {
     max-width: 150px;
     max-height: 250px;
@@ -109,6 +107,64 @@
     border: 3px solid #5B4856;
     padding: 15px 10px;
     background: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .sizesContainerWrapper {
+        padding: 80px 16px;
+        background: #848482;
+    }
+
+    .sizesHeader {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #000000;
+        text-align: start;
+    }
+
+    .sizesHeaderContainer {
+        margin-bottom: 40px;
+    }
+
+    .slidesMolbertContainer {
+        padding: 80px 0;
+    }
+
+    .sizesHeaderContainer::before,
+    .sizesHeaderContainer::after {
+        content: unset;
+        flex: unset;
+        border-bottom: unset;
+    }
+
+    .sizesHeaderContainer:not(:empty)::before {
+        margin-right: unset;
+    }
+
+    .sizesHeaderContainer:not(:empty)::after {
+        margin-left: unset;
+    }
+
+    .sizesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .sizesSize {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #5B4856;
+        padding: 40px 50px;
+        background: #FFFFFF;
+    }
 }
 
 

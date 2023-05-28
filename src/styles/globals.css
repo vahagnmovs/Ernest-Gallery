@@ -14,6 +14,14 @@ body {
     height: 350px;
 }
 
+.react-modal-sheet-drag-indicator {
+    width: 40px!important;
+    margin-top: -10px!important;
+    height: 5px!important;
+    border-radius: 0!important;
+    background: #E4D0D0!important;
+}
+
 @font-face {
     font-family: "Oswald";
     src: url('../../public/fonts/Oswald-Bold.ttf');

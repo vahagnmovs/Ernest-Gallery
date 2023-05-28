@@ -3,7 +3,6 @@ import styles from "@/styles/contactMe.module.css"
 import validator from 'validator';
 import isEmail from "validator/lib/isEmail";
 
-
 const ContactMe = () => {
 
     const [fName, setFName] = useState("")
