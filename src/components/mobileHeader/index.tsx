@@ -23,7 +23,7 @@ const MobileHeader = () => {
                             <Link className={styles.footerLink} href={'/gallery'}>Gallery</Link>
                             <Link className={styles.footerLink} href={'/prices'}>Prices</Link>
                             <Link className={styles.footerLink} href={'/contact'}>Contact me</Link>
-                            <Link className={styles.footerLink} href={'/about'}>About me</Link>
+                            <Link className={styles.footerLink2} href={'/about'}>About me</Link>
                         </div>
                     </Sheet.Content>
                 </Sheet.Container>

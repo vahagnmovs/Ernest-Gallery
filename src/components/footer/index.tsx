@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import validator from 'validator';
 import Link from "next/link";
 import {useRouter} from "next/router";
+import emailjs from "emailjs-com";
 
 const Footer = () => {
     const [email, setEmail] = useState("");
@@ -23,7 +24,24 @@ const Footer = () => {
     }
 
     const handleEmailForNews = () => {
-        setEmail("")
+        const serviceId = 'service_dcnmrxk';
+        const templateId = 'template_kcrvtdr';
+        const userId = 'KQye7tT2_fV9EaWLn';
+
+        const emailData = {
+            to_email: 'ernestosipyannewsletter@gmail.com',
+            from_email: email,
+            message: "for newsletter",
+        };
+
+        emailjs.send(serviceId, templateId, emailData, userId)
+            .then((response) => {
+                console.log('Email sent successfully!', response);
+                setEmail('');
+            })
+            .catch((error) => {
+                console.error('Failed to send email:', error);
+            });
     }
 
     return (

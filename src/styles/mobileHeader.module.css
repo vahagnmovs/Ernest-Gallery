@@ -1,3 +1,7 @@
+.mobile {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .mobile {
         display: flex;
@@ -18,15 +22,23 @@
     .footerLinks {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         padding: 0 16px 32px 16px;
     }
 
-    .footerLink {
+    .footerLink,
+    .footerLink2 {
         text-decoration: none;
         font-family: "Oswald", sans-serif;
         color: #E4D0D0;
         font-size: 20px;
         letter-spacing: 0.03rem;
+        border-bottom: 1px solid rgb(228, 208, 208, .2);
+        padding-bottom: 15px;
+    }
+
+    .footerLink2 {
+        border-bottom: none;
+
     }
 }

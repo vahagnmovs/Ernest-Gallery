@@ -89,13 +89,13 @@
 }
 
 .error {
-    color: red;
     font-family: "Oswald", sans-serif;
+    color: #FF8863;
 }
 
 @media screen and (max-width: 768px) {
     .contactMeContainer {
-        padding: 32px 16px 80px 16px;
+        padding: 40px 16px 80px 16px;
     }
 
     .inputRow {

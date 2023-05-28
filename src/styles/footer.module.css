@@ -42,10 +42,11 @@
 }
 
 .error {
-    color: #F6E5F2;
+    font-family: "Oswald", sans-serif;
+    color: #FF8863;
     margin-bottom: 20px;
     position: absolute;
-    bottom: -5px;
+    bottom: -6px;
 }
 
 .footerNews {
@@ -58,12 +59,13 @@
 .footerInput {
     width: 30%;
     padding: 10px;
-    outline: 0;
+    outline: none;
     line-height: 30px;
     font-family: "Oswald", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    border: none;
 }
 
 .footerBtn {
@@ -76,6 +78,8 @@
     font-family: "Oswald", sans-serif;
     font-style: normal;
     font-weight: 400;
+    outline: none;
+    cursor: pointer;
 }
 
 .footerBtn:hover {
@@ -86,6 +90,7 @@
 .footerBtn:disabled {
     background: #CCCCCC;
     color: #FFFFFF;
+    pointer-events: none;
 }
 
 .footerLinks {

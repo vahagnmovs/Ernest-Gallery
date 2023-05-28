@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from "@/styles/contactMe.module.css"
-import validator from 'validator';
 import isEmail from "validator/lib/isEmail";
+import emailjs from 'emailjs-com';
 
 const ContactMe = () => {
 
@@ -12,12 +12,11 @@ const ContactMe = () => {
     const [text, setText] = useState("")
     const [emailError, setEmailError] = useState("")
 
-
     const validateEMail = (e: any) => {
         const email = e.target.value;
         setEmail(email);
 
-        if(isEmail(email)) {
+        if (isEmail(email)) {
             setEmailError("")
         } else {
             setEmailError("Enter correct email")
@@ -25,14 +24,31 @@ const ContactMe = () => {
     }
 
     const handleSubmit = () => {
-        setFName("");
-        setLName("");
-        setEmail("");
-        setPhone("");
-        setText("");
+        const serviceId = 'service_oqrjcj8';
+        const templateId = 'template_2sv4hft';
+        const userId = 'G7fpvkrH26KZNWxXe';
+
+        const emailData = {
+            to_email: 'ernestosipyangallery@gmail.com', // Destination email address
+            from_name: fName + ' ' + lName,
+            from_email: email,
+            message: text,
+            phone
+        };
+
+        emailjs.send(serviceId, templateId, emailData, userId)
+            .then((response) => {
+                console.log('Email sent successfully!', response);
+                setFName('');
+                setLName('');
+                setEmail('');
+                setPhone('');
+                setText('');
+            })
+            .catch((error) => {
+                console.error('Failed to send email:', error);
+            });
     }
-
-
 
     return (
         <div className={styles.contactMeContainer}>
