@@ -1,29 +1,29 @@
 export const gallery = [
     {
         id: 1,
-        src: '/images/drybrashes/drybrash1.jpeg'
+        src: '/images/dryBrushes/dryBrash1.jpeg'
     },
     {
         id: 2,
-        src: '/images/drybrashes/drybrash2.jpeg'
+        src: '/images/dryBrushes/dryBrash2.jpeg'
     },{
         id: 48,
         src: '/images/otherPainting/other25.jpeg'
     },
     {
         id: 3,
-        src: '/images/drybrashes/drybrash3.jpeg'
+        src: '/images/dryBrushes/dryBrash3.jpeg'
     },{
         id: 21,
         src: '/images/oilPainting/oilPainting1.jpeg'
     },
     {
         id: 4,
-        src: '/images/drybrashes/drybrash4.jpeg'
+        src: '/images/dryBrushes/dryBrash4.jpeg'
     },
     {
         id: 5,
-        src: '/images/drybrashes/drybrash5.jpeg'
+        src: '/images/dryBrushes/dryBrash5.jpeg'
     },
     {
         id: 22,
@@ -34,39 +34,39 @@ export const gallery = [
     },
     {
         id: 11,
-        src: '/images/drybrashes/drybrash11.jpeg'
+        src: '/images/dryBrushes/dryBrash11.jpeg'
     },
     {
         id: 12,
-        src: '/images/drybrashes/drybrash12.jpeg'
+        src: '/images/dryBrushes/dryBrash12.jpeg'
     },
     {
         id: 13,
-        src: '/images/drybrashes/drybrash13.jpeg'
+        src: '/images/dryBrushes/dryBrash13.jpeg'
     },
     {
         id: 14,
-        src: '/images/drybrashes/drybrash14.jpeg'
+        src: '/images/dryBrushes/dryBrash14.jpeg'
     },
     {
         id: 15,
-        src: '/images/drybrashes/drybrash15.jpeg'
+        src: '/images/dryBrushes/dryBrash15.jpeg'
     },
     {
         id: 16,
-        src: '/images/drybrashes/drybrash16.jpeg'
+        src: '/images/dryBrushes/dryBrash16.jpeg'
     }, {
         id: 17,
-        src: '/images/drybrashes/drybrash17.jpeg'
+        src: '/images/dryBrushes/dryBrash17.jpeg'
     }, {
         id: 18,
-        src: '/images/drybrashes/drybrash18.jpeg'
+        src: '/images/dryBrushes/dryBrash18.jpeg'
     }, {
         id: 19,
-        src: '/images/drybrashes/drybrash19.jpeg'
+        src: '/images/dryBrushes/dryBrash19.jpeg'
     }, {
         id: 20,
-        src: '/images/drybrashes/drybrash20.jpeg'
+        src: '/images/dryBrushes/dryBrash20.jpeg'
     }, {
         id: 24,
         src: '/images/otherPainting/other1.jpeg'
@@ -120,23 +120,23 @@ export const gallery = [
         src: '/images/otherPainting/other17.jpeg'
     }, {
         id: 6,
-        src: '/images/drybrashes/drybrash6.jpeg'
+        src: '/images/dryBrushes/dryBrash6.jpeg'
     },
     {
         id: 7,
-        src: '/images/drybrashes/drybrash7.jpeg'
+        src: '/images/dryBrushes/dryBrash7.jpeg'
     },
     {
         id: 8,
-        src: '/images/drybrashes/drybrash8.jpeg'
+        src: '/images/dryBrushes/dryBrash8.jpeg'
     },
     {
         id: 9,
-        src: '/images/drybrashes/drybrash9.jpeg'
+        src: '/images/dryBrushes/dryBrash9.jpeg'
     },
     {
         id: 10,
-        src: '/images/drybrashes/drybrash10.jpeg'
+        src: '/images/dryBrushes/dryBrash10.jpeg'
     },{
         id: 23,
         src: '/images/oilPainting/oilPainting3.jpeg'

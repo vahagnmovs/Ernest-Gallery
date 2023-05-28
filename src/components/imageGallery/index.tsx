@@ -32,7 +32,7 @@ const ImageGallery: React.FC = () => {
             return;
         }
 
-        if (filter === 'drybrashes') {
+        if (filter === 'dryBrushes') {
             setFilter('Dry Brushes');
         }
 
@@ -82,7 +82,7 @@ const ImageGallery: React.FC = () => {
                     {toggleDropDown && (
                         <div className={styles.dropDownSelects}>
                             <span onClick={() => handleFilter('All')}>All</span>
-                            <span onClick={() => handleFilter('drybrashes')}>Dry Brushes</span>
+                            <span onClick={() => handleFilter('dryBrushes')}>Dry Brushes</span>
                             <span onClick={() => handleFilter('oilPainting')}>Oil</span>
                         </div>
                     )}
