@@ -1,0 +1,16 @@
+.imageBadgeContainer {
+    padding: 10px;
+    background: #FFFFFF;
+    width: fit-content;
+}
+
+.imageBadgeContainer > img {
+    width: 450px;
+}
+
+@media screen and (max-width: 768px) {
+    .imageBadgeContainer > img {
+        max-width: 450px;
+        width: 100%;
+    }
+}

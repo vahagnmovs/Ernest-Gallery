@@ -1,0 +1,113 @@
+.galleryContainerWrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.show {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.show > span {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.dropDown {
+    position: relative;
+    width: 200px;
+    padding: 8px;
+    background: #FFFFFF;
+}
+
+.selected {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropDownSelects {
+    position: absolute;
+    right: 0;
+    top: 105%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 200px;
+    padding: 8px 0;
+    z-index: 100;
+}
+
+.dropDownSelects > span,
+.selected > span {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.dropDownSelects > span {
+    padding: 8px;
+}
+
+.dropDownSelects > span:hover {
+    background: #5B4856;
+    color: #E4D0D0;
+}
+
+.galleryContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.galleryImageBadges {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loadMoreBtn {
+    font-family: "Oswald", sans-serif;
+    outline: none;
+    padding: 17px 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    background: #E4D0D0;
+    border: none;
+    cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+    background: #5B4856;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .galleryContainerWrapper {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 32px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .galleryContainer {
+        flex-direction: column;
+    }
+}
+
