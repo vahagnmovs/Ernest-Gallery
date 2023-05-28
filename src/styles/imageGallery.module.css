@@ -8,6 +8,20 @@
     gap: 40px;
 }
 
+.info {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: #5B4856;
+    align-self: flex-start;
+}
+
+.info2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    color: #5B4856;
+    align-self: center;
+}
+
 .show {
     display: flex;
     align-self: flex-end;

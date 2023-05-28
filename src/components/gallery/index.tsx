@@ -9,10 +9,12 @@ const Gallery = () => {
                 </div>
                 <div className={styles.galleryBadgesContainer}>
                     <GalleryBadge
+                        url={'/dry-brushes'}
                         paintType={'Dry Brushes'}
                         image={'/images/galleryImage1.png'}
                     />
                     <GalleryBadge
+                        url={'/oil-painting'}
                         paintType={'Oil Paintings'}
                         image={'/images/galleryImage2.png'}
                     />

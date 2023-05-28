@@ -1,12 +1,16 @@
 import styles from '@/styles/galleryBadge.module.css'
+import {useRouter} from "next/router";
 
 interface IImage {
     paintType: string,
-    image: string
+    image: string,
+    url: string
 }
-const GalleryBadge = ({image, paintType}: IImage) => {
+const GalleryBadge = ({image, paintType, url}: IImage) => {
+    const router = useRouter();
+
     return (
-        <div className={styles.galleryBadgeContainer}>
+        <div onClick={() => router.push(url)} className={styles.galleryBadgeContainer}>
             <div className={styles.galleryBadgeImages}>
                 <img src={image} alt=""/>
             </div>

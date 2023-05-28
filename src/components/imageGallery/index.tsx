@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import styles from '@/styles/imageGallery.module.css';
-import { gallery } from '@/data/gallery';
+import {gallery} from '@/data/gallery';
 import ImageBadge from '@/components/imageGallery/imageBadge';
 
 const ImageGallery: React.FC = () => {
@@ -46,6 +46,7 @@ const ImageGallery: React.FC = () => {
 
     return (
         <div className={styles.galleryContainerWrapper}>
+            <span className={styles.info2}>GIVE BRIGHT EMOTIONS TO YOURSELF AND YOUR LOVED ONES</span>
             <div className={styles.show}>
                 <span>Show:</span>
                 <div className={styles.dropDown}>

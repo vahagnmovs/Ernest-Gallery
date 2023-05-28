@@ -33,22 +33,6 @@ export const gallery = [
         src: '/images/otherPainting/other29.jpeg'
     },
     {
-        id: 11,
-        src: '/images/dryBrushes/dryBrash11.jpeg'
-    },
-    {
-        id: 12,
-        src: '/images/dryBrushes/dryBrash12.jpeg'
-    },
-    {
-        id: 13,
-        src: '/images/dryBrushes/dryBrash13.jpeg'
-    },
-    {
-        id: 14,
-        src: '/images/dryBrushes/dryBrash14.jpeg'
-    },
-    {
         id: 15,
         src: '/images/dryBrushes/dryBrash15.jpeg'
     },
@@ -156,6 +140,21 @@ export const gallery = [
         id: 45,
         src: '/images/otherPainting/other22.jpeg'
     }, {
+        id: 11,
+        src: '/images/dryBrushes/dryBrash11.jpeg'
+    },
+    {
+        id: 12,
+        src: '/images/dryBrushes/dryBrash12.jpeg'
+    },
+    {
+        id: 13,
+        src: '/images/dryBrushes/dryBrash13.jpeg'
+    },
+    {
+        id: 14,
+        src: '/images/dryBrushes/dryBrash14.jpeg'
+    },{
         id: 46,
         src: '/images/otherPainting/other23.jpeg'
     }, {

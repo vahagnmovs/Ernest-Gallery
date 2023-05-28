@@ -27,6 +27,7 @@ const OilPainting = () => {
             <div className={styles.pricesCurrency}>
                 <span className={styles.pricesCurrencyHeader}>Currency: USD</span>
                 <span className={styles.pricesCurrencyHeader}>Price list for Oil Painting / {selectedPersons === 2 ? 1 : 2} Person</span>
+                <span className={styles.info}>The cost of the painting includes a wooden stretcher and a natural canvas.</span>
             </div>
             {
                 selectedPersons === 1 &&
