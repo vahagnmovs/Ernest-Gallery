@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import styles from '@/styles/imageGallery.module.css';
-import { gallery } from '@/data/gallery';
+import {gallery} from '@/data/gallery';
 import ImageBadge from '@/components/imageGallery/imageBadge';
 
 const dryBrushes = gallery.filter((image) => image.src.split('/').includes('dryBrushes'))
@@ -20,7 +20,24 @@ const DryBrushes = () => {
 
     return (
         <div className={styles.galleryContainerWrapper}>
-            <span className={styles.info2}>GIVE BRIGHT EMOTIONS TO YOURSELF AND YOUR LOVED ONES</span>
+
+            <div className={styles.jocondaContainer}>
+                <span className={styles.jocondaText}>
+                    The technique of drybrush painting can be achieved with both water-based and oil-based media. With
+                water-based media such as inks, acrylic paints, tempera paints or watercolor paints, the brush is
+                usually dry or squeezed dry of all water. The brush is loaded with paint that is highly viscous or
+                thick and then applied to a dry support. With other water-based media, the brush is loaded with paint
+                then squeezed dry. When using oil-based media,such as oil paint, similar techniques are used, although
+                instead of water, the brush is used dry or any oil or solvent is removed. Because oil paint has a longer
+                drying time than water-based media, brushing over or blending drybrush strokes is often avoided to
+                preserve the distinctive look of the drybrush painting technique.
+                </span>
+                <img className={styles.insteadOfVideo} src="/images/dryBrushes/dryBrash10.jpeg" alt=""/>
+                <video autoPlay controls={true} muted loop className={styles.video}>
+                    <source src="/videos/joconda.mp4"/>
+                </video>
+            </div>
+
             <div className={styles.galleryContainer}>
                 <div className={styles.galleryImageBadges}>
                     {visibleFirstHalf.map((image) => (
@@ -33,11 +50,14 @@ const DryBrushes = () => {
                     ))}
                 </div>
             </div>
-            {(visibleFirstHalf.length < firstHalf.length || visibleSecondHalf.length < secondHalf.length) && (
-                <button className={styles.loadMoreBtn} onClick={loadMoreImages}>
-                    Load More
-                </button>
-            )}
+            <div className={styles.buttonContainer}>
+                {(visibleFirstHalf.length < firstHalf.length || visibleSecondHalf.length < secondHalf.length) && (
+                    <button className={styles.loadMoreBtn} onClick={loadMoreImages}>
+                        Load More
+                    </button>
+                )}
+            </div>
+
         </div>
     );
 };

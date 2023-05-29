@@ -8,6 +8,31 @@
     gap: 40px;
 }
 
+.jocondaContainer {
+    display: flex;
+    gap: 40px;
+    background: #848482;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.jocondaText {
+    font-family: "Oswald", sans-serif;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.video {
+    display: block;
+    width: 250px;
+}
+
+.insteadOfVideo {
+    display: none;
+}
+
 .info {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
@@ -114,7 +139,7 @@
         max-width: 960px;
         width: 100%;
         margin: 0 auto;
-        padding: 32px 16px;
+        padding: 0 0 32px 0;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -122,6 +147,31 @@
 
     .galleryContainer {
         flex-direction: column;
+        padding: 0 16px;
+    }
+
+    .jocondaContainer {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .insteadOfVideo {
+        display: block;
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .jocondaText {
+        padding: 0 16px;
+        max-width: unset;
+    }
+
+    .buttonContainer {
+        padding: 0 16px;
     }
 }
 
