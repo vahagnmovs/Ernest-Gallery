@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "@/styles/homoe.module.css";
+import styles from "@/styles/home.module.css";
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import MobileHeader from "@/components/mobileHeader";

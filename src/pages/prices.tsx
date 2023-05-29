@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Prices from "@/components/prices";
 import WhyYouLoveMe from "@/components/whyYouLoveMe";
-import styles from "@/styles/homoe.module.css";
+import styles from "@/styles/home.module.css";
 import MobileHeader from "@/components/mobileHeader";
 
 const PricesPage = () => {

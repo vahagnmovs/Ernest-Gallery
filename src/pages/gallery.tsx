@@ -3,7 +3,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import ImageGallery from "@/components/imageGallery";
-import styles from "@/styles/homoe.module.css";
+import styles from "@/styles/home.module.css";
 import MobileHeader from "@/components/mobileHeader";
 
 const GalleryPage = () => {

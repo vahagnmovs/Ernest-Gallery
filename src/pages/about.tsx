@@ -3,7 +3,7 @@ import Header from "@/components/header";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import AboutMe from "@/components/aboutMe";
-import styles from "@/styles/homoe.module.css";
+import styles from "@/styles/home.module.css";
 import MobileHeader from "@/components/mobileHeader";
 
 const AboutPage = () => {
