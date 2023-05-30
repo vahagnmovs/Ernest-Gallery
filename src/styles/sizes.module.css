@@ -109,6 +109,17 @@
     background: #FFFFFF;
 }
 
+@media screen and (max-width: 1280px) {
+    .sizesWrapWrapper {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .sizesContainer {
+        flex-wrap: nowrap;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sizesContainerWrapper {
         padding: 80px 16px;
