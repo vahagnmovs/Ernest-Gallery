@@ -44,6 +44,14 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1280px) {
+    .galleryWrapper {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .galleryBadgesContainer {
         flex-direction: column;

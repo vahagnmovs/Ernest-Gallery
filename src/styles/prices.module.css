@@ -152,6 +152,15 @@
     font-style: normal;
 }
 
+@media screen and (max-width: 1280px) {
+    .pricesContainer {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .pricesContainer {
         padding: 40px 16px;

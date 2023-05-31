@@ -32,6 +32,13 @@
     color: #5B4856;
 }
 
+@media screen and (max-width: 1280px) {
+    .galleryBadgeImages > img {
+        max-width: 300px;
+        max-height: 550px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .galleryBadgeImages {
         display: flex;
