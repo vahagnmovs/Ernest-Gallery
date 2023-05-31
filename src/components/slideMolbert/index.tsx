@@ -14,7 +14,7 @@ const SlidesMolbert = () => {
             slides: {perView: "auto", spacing: 16},
             breakpoints: {
                 "(max-width: 768px)": {
-                    slides: { perView: 1.3, spacing: 10, origin: 'center' },
+                    slides: { perView: "auto", spacing: 16, origin: 'center' },
                 }
             }
         },
