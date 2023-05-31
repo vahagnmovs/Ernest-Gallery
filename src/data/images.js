@@ -136,7 +136,7 @@ export const images = {
             src: '/images/otherPainting/other14.jpeg'
         },{
             id: 15,
-            src: '/images/otherPainting/other15.jpeg'
+            src: '/images/otherPainting/dryBrush21.jpeg'
         },{
             id: 16,
             src: '/images/otherPainting/other16.jpeg'

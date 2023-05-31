@@ -40,12 +40,12 @@ const DryBrushes = () => {
             <div className={styles.galleryContainer}>
                 <div className={styles.galleryImageBadges}>
                     {visibleFirstHalf.map((image) => (
-                        <ImageBadge key={image.id} {...image} />
+                        <ImageBadge key={image.id} id={image.id} src={image.src} />
                     ))}
                 </div>
                 <div className={styles.galleryImageBadges}>
                     {visibleSecondHalf.map((image) => (
-                        <ImageBadge key={image.id} {...image} />
+                        <ImageBadge key={image.id} id={image.id} src={image.src} />
                     ))}
                 </div>
             </div>

@@ -8,6 +8,14 @@
     width: 450px;
 }
 
+.imageType {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5B4856;
+    letter-spacing: 0.03rem;
+}
+
 @media screen and (max-width: 768px) {
     .imageBadgeContainer > img {
         max-width: 450px;
