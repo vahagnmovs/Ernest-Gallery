@@ -40,6 +40,10 @@ export const gallery = [
         id: 52,
         src: '/images/otherPainting/other29.jpeg',
         type: "Watercolor. Acid-free paper."
+    },{
+        id: 53,
+        src: '/images/oilPainting/oilPainting5.png',
+        type: "Oil Painting"
     },
     {
         id: 15,
