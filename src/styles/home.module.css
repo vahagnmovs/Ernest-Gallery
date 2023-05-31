@@ -2,8 +2,34 @@
     display: none;
 }
 
+.infoContainer {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .desktop {
         display: none;
+    }
+
+    .infoContainer {
+        background: #E4D0D0;
+        padding: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .infoContainer > svg {
+        width: 16px;
+    }
+
+    .info {
+        font-family: "Oswald", sans-serif;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    .infoLink {
+        color: #000000;
     }
 }

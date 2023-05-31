@@ -32,7 +32,6 @@ const DryBrushes = () => {
                 drying time than water-based media, brushing over or blending drybrush strokes is often avoided to
                 preserve the distinctive look of the drybrush painting technique.
                 </span>
-                <img className={styles.insteadOfVideo} src="/images/dryBrushes/dryBrash10.jpeg" alt=""/>
                 <video autoPlay controls={true} muted loop className={styles.video}>
                     <source src="/videos/joconda.mp4"/>
                 </video>

@@ -63,11 +63,11 @@ const Footer = () => {
                 </div>
                 <div className={styles.social}>
                     <img onClick={() => router.push('https://www.instagram.com/ernestosipyan')} src="/icons/instagram.svg" alt=""/>
-                    <img onClick={() => router.push('https://www.facebook.com/profile.php?id=100009713139157')} src="/icons/facebook.svg" alt=""/>
+                    <img onClick={() => router.push('https://www.facebook.com/profile.php?id=100090060194846&mibextid=LQQJ4d')} src="/icons/facebook.svg" alt=""/>
                 </div>
                 <div className={styles.footerLinks}>
                     <Link className={styles.footeLink} href={'/'}>Home</Link>
-                    <Link className={styles.footeLink} href={'/'}>Gallery</Link>
+                    <Link className={styles.footeLink} href={'/gallery'}>Gallery</Link>
                     <Link className={styles.footeLink} href={'/prices'}>Prices</Link>
                     <Link className={styles.footeLink} href={'/contact'}>Contact me</Link>
                     <Link className={styles.footeLink} href={'/about'}>About me</Link>

@@ -15,7 +15,7 @@ const Prices = () => {
                 </div>
                 <div className={styles.sizeChoose}>
                     <div className={styles.pricesBrushContainer}>
-                        <span className={styles.pricesBrush}>Dry Brushes</span>
+                        <span className={styles.pricesBrush}>DryBrush</span>
                         <div onClick={() => setSelect(1)}
                              className={select === 1 ? styles.sizeWrapper : styles.sizeWrapperOn}>
                             <img src="/images/galleryImage1.png" alt=""/>

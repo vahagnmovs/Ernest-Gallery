@@ -73,8 +73,7 @@
     .coverImage {
         display: block;
         width: 100vw;
-        height: 300px;
-        object-fit: unset;
+        object-fit: fill;
     }
 
     .turnBadgeHeader {
@@ -108,7 +107,7 @@
         left: unset;
         transform: unset;
         max-width: unset;
-        padding: 80px 16px;
+        padding: 40px 16px 80px 16px;
     }
 
     .turnBadgeTextContainer {

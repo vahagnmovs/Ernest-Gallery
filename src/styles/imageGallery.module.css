@@ -29,10 +29,6 @@
     width: 250px;
 }
 
-.insteadOfVideo {
-    display: none;
-}
-
 .info {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
@@ -139,7 +135,7 @@
         max-width: 960px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 0 32px 0;
+        padding: 32px 16px;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -147,22 +143,11 @@
 
     .galleryContainer {
         flex-direction: column;
-        padding: 0 16px;
     }
 
     .jocondaContainer {
         flex-direction: column-reverse;
         gap: 20px;
-    }
-
-    .video {
-        display: none;
-    }
-
-    .insteadOfVideo {
-        display: block;
-        max-width: 350px;
-        width: 100%;
     }
 
     .jocondaText {
@@ -171,6 +156,12 @@
     }
 
     .buttonContainer {
+        padding: 0 16px;
+    }
+
+    .video {
+        max-width: 500px;
+        width: 100%;
         padding: 0 16px;
     }
 }

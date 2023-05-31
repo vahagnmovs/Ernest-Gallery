@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles from '@/styles/imageGallery.module.css';
 import {gallery} from '@/data/gallery';
 import ImageBadge from '@/components/imageGallery/imageBadge';
+import Link from "next/link";
 
 const ImageGallery: React.FC = () => {
     const [visibleImages, setVisibleImages] = useState<number>(4);
@@ -33,11 +34,11 @@ const ImageGallery: React.FC = () => {
         }
 
         if (filter === 'dryBrushes') {
-            setFilter('Dry Brushes');
+            setFilter('DryBrush');
         }
 
         if (filter === 'oilPainting') {
-            setFilter('Oil');
+            setFilter('Oil Painting');
         }
 
         setFilteredFirstHalf(firstHalf.filter((image) => image.src.split('/').includes(filter)));
@@ -46,6 +47,7 @@ const ImageGallery: React.FC = () => {
 
     return (
         <div className={styles.galleryContainerWrapper}>
+
             <span className={styles.info2}>GIVE BRIGHT EMOTIONS TO YOURSELF AND YOUR LOVED ONES</span>
             <div className={styles.show}>
                 <span>Show:</span>
@@ -83,8 +85,8 @@ const ImageGallery: React.FC = () => {
                     {toggleDropDown && (
                         <div className={styles.dropDownSelects}>
                             <span onClick={() => handleFilter('All')}>All</span>
-                            <span onClick={() => handleFilter('dryBrushes')}>Dry Brushes</span>
-                            <span onClick={() => handleFilter('oilPainting')}>Oil</span>
+                            <span onClick={() => handleFilter('dryBrushes')}>DryBrush</span>
+                            <span onClick={() => handleFilter('oilPainting')}>Oil Painting</span>
                         </div>
                     )}
                 </div>

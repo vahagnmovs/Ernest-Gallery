@@ -133,6 +133,9 @@ export const gallery = [
     }, {
         id: 43,
         src: '/images/otherPainting/other20.jpeg'
+    },{
+        id: 52,
+        src: '/images/oilPainting/oilPainting4.jpeg'
     }, {
         id: 44,
         src: '/images/otherPainting/other21.jpeg'

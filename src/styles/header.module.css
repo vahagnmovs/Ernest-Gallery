@@ -1,3 +1,28 @@
+.infoContainer {
+  background: #E4D0D0;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoContainer > svg {
+  cursor: pointer;
+  width: 24px;
+}
+
+.info {
+  font-family: "Oswald", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.infoLink {
+  color: #5B4856;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
 .headerContainer {
   padding: 30px 0;
   display: flex;
