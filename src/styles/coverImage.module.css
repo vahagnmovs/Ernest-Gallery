@@ -74,9 +74,7 @@
 
     .coverImage {
         display: block;
-        width: 100vw;
-        height: 300px;
-        object-fit: unset;
+        object-fit: contain;
     }
 
     .turnBadgeHeader {
@@ -148,7 +146,7 @@
     .coverImage {
         display: block;
         width: 100vw;
-        object-fit: fill;
+        object-fit: contain;
     }
 
     .turnBadgeHeader {

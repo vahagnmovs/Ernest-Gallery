@@ -6,7 +6,7 @@ const CoverImage = () => {
 
     return (
         <div className={styles.coverImageContainer}>
-            <img className={styles.coverImage} src="/images/coverImage.png" alt=""/>
+            <img className={styles.coverImage} src="/images/coverImageMobile4.jpeg" alt=""/>
             <div className={styles.turnBadgeTextWrapper}>
                 <span className={styles.turnBadgeHeader}>Turn Your Favorite Photos Into Hand-Painted Portraits!</span>
                 <div className={styles.turnBadgeTextContainer}>

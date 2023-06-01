@@ -44,9 +44,7 @@ const MobileHeader = () => {
                     <Sheet.Backdrop />
                 </Sheet>
                 <div className={styles.mobileLogoContainer}>
-                    <span onClick={() => router.push("/")} className={styles.headerText}>Ernest</span>
-                    <img className={styles.mobileLogo} src={"/logo/logoMobile.png"} alt=""/>
-                    <span onClick={() => router.push("/")} className={styles.headerText}>Gallery</span>
+                    <span onClick={() => router.push("/")} className={styles.headerText}>Ernest Gallery</span>
                 </div>
                 <svg onClick={() => setOpen(true)} width="35" height="38" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 8.5L22 8.5" stroke="#F6E5F2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
