@@ -22,6 +22,49 @@ body {
     background: #E4D0D0!important;
 }
 
+.box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /* Add this line to ensure the span stays within the container */
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+    color: white;
+    padding: 5px 10px;
+}
+
+.box span {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 150px;
+    text-align: center;
+    transform-origin: top right;
+    background-color: #F6E5F2;
+    color: #5B4856;
+    padding: 5px 10px;
+    transform: rotate(45deg);
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.box span span {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+
+
 @font-face {
     font-family: "Oswald";
     src: url('../../public/fonts/Oswald-Bold.ttf');

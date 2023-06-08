@@ -4,8 +4,12 @@
     width: fit-content;
 }
 
-.imageBadgeContainer > img {
+.imageBadgeContainer > div > img {
     width: 450px;
+}
+
+.imageSoldBadge {
+
 }
 
 .imageType {
@@ -17,7 +21,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .imageBadgeContainer > img {
+    .imageBadgeContainer > div > img {
         max-width: 450px;
         width: 100%;
     }

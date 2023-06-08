@@ -27,6 +27,7 @@
     "react-dom": "18.2.0",
     "react-firebase-hooks": "^5.1.1",
     "react-modal-sheet": "^1.10.2",
+    "sass": "^1.63.2",
     "typescript": "5.0.4",
     "validator": "^13.9.0"
   },

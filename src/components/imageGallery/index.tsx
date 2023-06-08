@@ -5,6 +5,7 @@ import ImageBadge from '@/components/imageGallery/imageBadge';
 import Link from "next/link";
 
 const ImageGallery: React.FC = () => {
+    console.log(gallery.length)
     const [visibleImages, setVisibleImages] = useState<number>(4);
     const [filter, setFilter] = useState<string>('All');
     const [toggleDropDown, setToggleDropDown] = useState<boolean>(false);
@@ -30,15 +31,18 @@ const ImageGallery: React.FC = () => {
             setFilter('All');
             setFilteredFirstHalf(firstHalf);
             setFilteredSecondHalf(secondHalf);
+            setVisibleImages(4)
             return;
         }
 
         if (filter === 'dryBrushes') {
             setFilter('DryBrush');
+            setVisibleImages(4)
         }
 
         if (filter === 'oilPainting') {
             setFilter('Oil Painting');
+            setVisibleImages(4)
         }
 
         setFilteredFirstHalf(firstHalf.filter((image) => image.src.split('/').includes(filter)));
